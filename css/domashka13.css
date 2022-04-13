@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  width: 100%;
+}
+#dropbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  min-height: 300px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background: green;  
+}
+p {  
+  background: rgb(192, 188, 188);
+  text-align: center;
+  font-size: 15px;
+  
+}
+#zoom1 {  
+  width: 100%;
+}
+.gre {
+  color:rgb(100, 6, 26);
+  animation: gre 1.5s linear infinite;
+  padding: 50px;
+}
+
+@keyframes gre {
+  from { opacity: 1; }
+  to { opacity: 0; }
+ }
+
+#dropbox img:hover {
+  width: 105px;
+  cursor: pointer;
+  transition: .3s;
+}
